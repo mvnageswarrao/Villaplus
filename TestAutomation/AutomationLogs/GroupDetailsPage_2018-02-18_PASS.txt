@@ -1,0 +1,37 @@
+PASS : Group Details page Opened Successfully.
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Entered First Names for All Pax.
+PASS : Entered Last Names for All Pax.
+PASS : Clicked "Look-Up Address" Button.
+PASS : Entered All Phone Numbers.

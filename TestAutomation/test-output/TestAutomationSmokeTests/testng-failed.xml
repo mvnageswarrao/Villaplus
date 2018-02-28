@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [TestAutomationSmokeTests]">
+  <parameter name="EmailID" value="testautomation@ash-software.com"/>
+  <parameter name="InfantsToSelect" value="0"/>
+  <parameter name="ChildToSelect" value="2"/>
+  <parameter name="appURL" value="https://www.villaplus.com/"/>
+  <parameter name="AdultsToSelect" value="2"/>
+  <parameter name="PostCode" value="Al3 5NP"/>
+  <parameter name="SeasonEndDate" value="05-23-2020"/>
+  <listeners>
+    <listener class-name="com.vp.utils.ExtentReportListner"/>
+  </listeners>
+  <test name="RegressionTestsOnFirefox(failed)">
+    <parameter name="browserType" value="firefox"/>
+    <groups>
+      <run>
+        <include name="PKBooking"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.vp.tests.FlightPageTests">
+        <methods>
+          <include name="VerifyFlightspage"/>
+        </methods>
+      </class> <!-- com.vp.tests.FlightPageTests -->
+      <class name="com.vp.tests.ExtrasPageTests">
+        <methods>
+          <include name="VerifyExtrasPage"/>
+        </methods>
+      </class> <!-- com.vp.tests.ExtrasPageTests -->
+      <class name="com.vp.tests.HomePageTests">
+        <methods>
+          <include name="verifySearchBtnFunctionality" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.vp.tests.HomePageTests -->
+      <class name="com.vp.tests.GroupDetailsPageTests">
+        <methods>
+          <include name="verifyContinuebtnFunctionality"/>
+        </methods>
+      </class> <!-- com.vp.tests.GroupDetailsPageTests -->
+    </classes>
+  </test> <!-- RegressionTestsOnFirefox(failed) -->
+</suite> <!-- Failed suite [TestAutomationSmokeTests] -->

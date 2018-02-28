@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [TestAutomation Smoke Tests]">
+  <parameter name="InfantsToSelect" value="2"/>
+  <parameter name="ChildToSelect" value="3"/>
+  <parameter name="appURL" value="https://www.villaplus.com/"/>
+  <parameter name="AdultsToSelect" value="5"/>
+  <parameter name="SeasonEndDate" value="05-23-2020"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="VillaPlusTest(failed)">
+    <classes>
+      <class name="com.vp.tests.HomePageTests">
+        <methods>
+          <include name="verifySearchBtnFunctionality" invocation-numbers="0"/>
+          <include name="TeardownBrowser"/>
+        </methods>
+      </class> <!-- com.vp.tests.HomePageTests -->
+    </classes>
+  </test> <!-- VillaPlusTest(failed) -->
+</suite> <!-- Failed suite [TestAutomation Smoke Tests] -->

@@ -1,0 +1,2 @@
+PASS : Clicked "Continue" Button From "Extras" page.
+PASS : Clicked "Continue" Button From "Extras" page.

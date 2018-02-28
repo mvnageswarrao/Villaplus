@@ -1,0 +1,330 @@
+PASS : Group Details page Opened Successfully.
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Inf[M]
+Inf[F]
+--
+PASS : Selected Title as Inf[M]
+Inf[F]
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Inf[M]
+Inf[F]
+--
+PASS : Selected Title as Inf[M]
+Inf[F]
+--
+PASS : Entered First Names for All Pax.
+PASS : Entered Last Names for All Pax.
+PASS : Clicked "Look-Up Address" Button.
+PASS : Entered All Phone Numbers.
+PASS : Group Details page Opened Successfully.
+PASS : Entered First Names for All Pax.
+PASS : Entered Last Names for All Pax.
+PASS : Entered Email IDs.
+PASS : Group Details page Opened Successfully.
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Inf[M]
+Inf[F]
+--
+PASS : Selected Title as Inf[M]
+Inf[F]
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Inf[M]
+Inf[F]
+--
+PASS : Selected Title as Inf[M]
+Inf[F]
+--
+PASS : Entered First Names for All Pax.
+PASS : Entered Last Names for All Pax.
+PASS : Clicked "Look-Up Address" Button.
+PASS : Entered All Phone Numbers.
+PASS : Clicked "Continue" Button from "Group Details" Page.
+PASS : Entered First Names for All Pax.
+PASS : Entered Last Names for All Pax.
+PASS : Entered Email IDs.
+PASS : Group Details page Opened Successfully.
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Entered First Names for All Pax.
+PASS : Entered Last Names for All Pax.
+PASS : Clicked "Look-Up Address" Button.
+PASS : Entered All Phone Numbers.
+PASS : Clicked "Continue" Button from "Group Details" Page.
+PASS : Group Details page Opened Successfully.
+PASS : Group Details page Opened Successfully.
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Entered First Names for All Pax.
+PASS : Entered Last Names for All Pax.
+PASS : Clicked "Look-Up Address" Button.
+PASS : Entered All Phone Numbers.
+PASS : Clicked "Continue" Button from "Group Details" Page.
+PASS : Group Details page Opened Successfully.
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Entered First Names for All Pax.
+PASS : Entered Last Names for All Pax.
+PASS : Clicked "Look-Up Address" Button.
+PASS : Entered All Phone Numbers.
+PASS : Clicked "Continue" Button from "Group Details" Page.
+PASS : Group Details page Opened Successfully.
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Mr
+Mrs
+Ms
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Selected Title as Master
+Miss
+--
+PASS : Entered First Names for All Pax.
+PASS : Entered Last Names for All Pax.
+PASS : Clicked "Look-Up Address" Button.
+PASS : Entered All Phone Numbers.

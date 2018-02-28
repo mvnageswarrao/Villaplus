@@ -1,0 +1,83 @@
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (64846a9ac0322b63af293ae521c58553)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could not Select "Menorca" from Destinations Dropdown.Index: 24, Size: 24
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (58abd57105be372e2839f51117f93873)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (b0c66d6628981985bf9be51d613a0c6f)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could not Select "Majorca" from Destinations Dropdown.Index: 24, Size: 24
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (548b1b3362d7294345c74b3d89cb8486)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could not Select "Majorca" from Destinations Dropdown.Index: 24, Size: 24
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (0ccf6500b5dff02faec288e919c30d68)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (9db67485f6102c1ca3be987d58bf23fe)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could not Select "Majorca" from Destinations Dropdown.Index: 24, Size: 24
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could not Select "Menorca" from Destinations Dropdown.Index: 24, Size: 24
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (94cb607a10f60d88ec513283b61e8d34)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (b9da6128d110bf5b21a456dcf8a0ecc5)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (1d0efbeba0f8849a8742fc3cbe0b22f7)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (1d0efbeba0f8849a8742fc3cbe0b22f7)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could not Select "Menorca" from Destinations Dropdown.Index: 24, Size: 24
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (120381f250f2fa966cfc78b70bc85d49)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (2c54715fb4cae19fd671a9583224d3ed)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (2c54715fb4cae19fd671a9583224d3ed)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (21ebce9b2e7f9f7b9664de25728b6006)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (52987d372f22acb6971e01959cba5ef3)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (8ab9a65ef66727853cfd19e969430ce2)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (9644ea692d1a8871847b0800395c0a08)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (c6d9ce28385bbe36fd0e469c04305645)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could not Select "Menorca" from Destinations Dropdown.Index: 24, Size: 24
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (f46a8067f3201a75954a8c02db1b3cc8)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (935e42c1d303e08ec3a2f3296387bdcc)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (9ed02da36f4b5dcd06caa5696c2a4094)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could not Open Destinations Dropdown.chrome not reachable
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
+System info: host: 'ASH-LPT-19', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 84149dde379f157bd3dbca4db066fe0e
+*** Element info: {Using=id, value=ddDestinations}
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (36e56f4e3d147475f3e6ad899b63f097)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (db209d01ffe1ace54d6bc5f1e620c8b6)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could not Select "Majorca" from Destinations Dropdown.Index: 24, Size: 24
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (df2e2ebd5607c6e7440aa52c4db4c1ef)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (918e87ef44c68923bb8b3a1b40f0132f)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (6bfedcff4d0c68093ccf0ae9e9f4f368)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-22##########
+FAIL : Could Not Select "[[[[FirefoxDriver: firefox on XP (4eefa6f2-fefb-49ac-9e48-33b1b41a4729)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34

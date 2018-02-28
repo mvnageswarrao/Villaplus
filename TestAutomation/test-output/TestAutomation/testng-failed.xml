@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [TestAutomation]">
+  <parameter name="DesttoSelect" value="Algarve"/>
+  <parameter name="appURL" value="https://www.villaplus.com/"/>
+  <parameter name="browserType" value="firefox"/>
+  <test name="VillaPlusTest(failed)">
+    <classes>
+      <class name="com.vp.tests.SRPageTests">
+        <methods>
+          <include name="TeardownBrowser"/>
+          <include name="verifySearchResultspage"/>
+        </methods>
+      </class> <!-- com.vp.tests.SRPageTests -->
+    </classes>
+  </test> <!-- VillaPlusTest(failed) -->
+</suite> <!-- Failed suite [TestAutomation] -->

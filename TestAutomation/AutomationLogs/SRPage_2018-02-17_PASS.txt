@@ -1,0 +1,96 @@
+PASS : "Search Results" Page Opened.
+PASS : 1 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 1 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 7 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 2 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 0 Villas found in Search Results page.
+PASS : "Search Results" Page Opened.
+PASS : 0 Villas found in Search Results page.
+PASS : "Search Results" Page Opened.
+PASS : 8 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 16 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 116 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 16 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 25 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 38 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 19 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.

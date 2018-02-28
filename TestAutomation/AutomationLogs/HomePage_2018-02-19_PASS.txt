@@ -1,0 +1,35 @@
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-19##########
+PASS : "Home Page" is Opened.
+PASS : Destinations Dropdown is Opened.
+PASS : Clicked Date Text box.
+PASS : Selected "May 2018" From Month dropdown.
+PASS : Selected "11" Date From Calender.
+PASS : Selected "28 nights" From Duration dropdown.
+PASS : Selected "2" Adults.
+PASS : Selected "2" Child.
+PASS : Selected "0" Infants.
+PASS : Clicked "Search" Button from Search Tile.
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-19##########
+PASS : "Home Page" is Opened.
+PASS : Destinations Dropdown is Opened.
+PASS : "Zante" Selected from Destinations Dropdown.
+PASS : Clicked Date Text box.
+PASS : Selected "July 2018" From Month dropdown.
+PASS : Selected "22" Date From Calender.
+PASS : Selected "7 nights" From Duration dropdown.
+PASS : Selected "2" Adults.
+PASS : Selected "2" Child.
+PASS : Selected "0" Infants.
+PASS : Clicked "Search" Button from Search Tile.
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-19##########
+PASS : "Home Page" is Opened.
+PASS : Destinations Dropdown is Opened.
+PASS : "Rhodes" Selected from Destinations Dropdown.
+PASS : Clicked Date Text box.
+PASS : Selected "May 2018" From Month dropdown.
+PASS : Selected "16" Date From Calender.
+PASS : Selected "14 nights" From Duration dropdown.
+PASS : Selected "2" Adults.
+PASS : Selected "2" Child.
+PASS : Selected "0" Infants.
+PASS : Clicked "Search" Button from Search Tile.

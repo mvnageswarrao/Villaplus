@@ -1,0 +1,18 @@
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (ddf47998f53aecccff2687d0625adbd8)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+FAIL : Could Not Select "[[[[FirefoxDriver: firefox on XP (350e7ffa-2501-4e6a-8776-e475f4ac9153)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+FAIL : Could Not Select "[[[[FirefoxDriver: firefox on XP (81290c37-6c58-48ac-9bf4-4096169db9f6)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+FAIL : Could Not Select "[[[[FirefoxDriver: firefox on XP (32efcef5-8ffd-4001-98f5-58fa5e496682)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+FAIL : Could Not Select "[[[[FirefoxDriver: firefox on XP (256aae0a-ea7d-4e6a-af38-66515a7221f0)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+FAIL : Could not Select "Kefalonia" from Destinations Dropdown.Index: 24, Size: 24
+FAIL : Could Not Select "[[[[FirefoxDriver: firefox on XP (256aae0a-ea7d-4e6a-af38-66515a7221f0)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+FAIL : Could Not Select "[[[[FirefoxDriver: firefox on XP (256aae0a-ea7d-4e6a-af38-66515a7221f0)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+FAIL : Could Not Select "[[[[FirefoxDriver: firefox on XP (3924810f-0d3b-46c2-9ecc-7b62bfd85734)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+FAIL : Could not Select "Kefalonia" from Destinations Dropdown.Index: 24, Size: 24
+FAIL : Could Not Select "[[[[FirefoxDriver: firefox on XP (e743a263-f5d5-40eb-80b7-ccc25f0eaecc)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+FAIL : Could not Select "Menorca" from Destinations Dropdown.Index: 24, Size: 24
+FAIL : Could Not Select "[[[[FirefoxDriver: firefox on XP (0b1311fd-72ce-4766-bf8a-d5b0953f5b51)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (71aa805154310b2ad63d3708b9bd6118)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+FAIL : Could not Select "Menorca" from Destinations Dropdown.Index: 24, Size: 24
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (ee4882a187301537d3f993921b861492)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
+########## START ########## Booking : on https://www.villaplus.com/ 2018-02-17##########
+FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (fa937092db968fdac4a8d0d662bb1eac)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34

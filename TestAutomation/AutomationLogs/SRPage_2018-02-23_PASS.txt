@@ -1,0 +1,15 @@
+PASS : "Search Results" Page Opened.
+PASS : 22 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 58 Villas found in Search Results page.
+PASS : Clicked "Book Villa & Flights" Button.
+PASS : "Search Results" Page Opened.
+PASS : 11 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
+PASS : "Search Results" Page Opened.
+PASS : 4 Villas found in Search Results page.
+PASS : Clicked "Book Villa & Flights" Button.
+PASS : "Search Results" Page Opened.
+PASS : 64 Villas found in Search Results page.
+PASS : Clicked "Book Villa Only" Button.
