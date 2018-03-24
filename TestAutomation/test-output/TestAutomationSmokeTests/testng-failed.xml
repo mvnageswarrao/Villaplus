@@ -13,32 +13,35 @@
   </listeners>
   <test name="RegressionTestsOnFirefox(failed)">
     <parameter name="browserType" value="firefox"/>
-    <groups>
-      <run>
-        <include name="PKBooking"/>
-      </run>
-    </groups>
     <classes>
+      <class name="com.vp.tests.GroupDetailsPageTests">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="verifyContinuebtnFunctionality"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.vp.tests.GroupDetailsPageTests -->
+      <class name="com.vp.tests.SRPageTests">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="verifySearchResultspage"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.vp.tests.SRPageTests -->
+      <class name="com.vp.tests.ExtrasPageTests">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="VerifyExtrasPage"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.vp.tests.ExtrasPageTests -->
       <class name="com.vp.tests.FlightPageTests">
         <methods>
+          <include name="initBrowser"/>
+          <include name="CloseBrowser"/>
           <include name="VerifyFlightspage"/>
         </methods>
       </class> <!-- com.vp.tests.FlightPageTests -->
-      <class name="com.vp.tests.ExtrasPageTests">
-        <methods>
-          <include name="VerifyExtrasPage"/>
-        </methods>
-      </class> <!-- com.vp.tests.ExtrasPageTests -->
-      <class name="com.vp.tests.HomePageTests">
-        <methods>
-          <include name="verifySearchBtnFunctionality" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.vp.tests.HomePageTests -->
-      <class name="com.vp.tests.GroupDetailsPageTests">
-        <methods>
-          <include name="verifyContinuebtnFunctionality"/>
-        </methods>
-      </class> <!-- com.vp.tests.GroupDetailsPageTests -->
     </classes>
   </test> <!-- RegressionTestsOnFirefox(failed) -->
 </suite> <!-- Failed suite [TestAutomationSmokeTests] -->

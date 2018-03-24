@@ -1,6 +1,0 @@
-########## START ########## Booking : on https://www.villaplus.com/ 2018-02-20##########
-FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (a526477a1edab8126605026844d71e97)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
-########## START ########## Booking : on https://www.villaplus.com/ 2018-02-20##########
-FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (a526477a1edab8126605026844d71e97)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
-########## START ########## Booking : on https://www.villaplus.com/ 2018-02-20##########
-FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (d9eeaa7e53a66057d257126d220a4cd9)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34

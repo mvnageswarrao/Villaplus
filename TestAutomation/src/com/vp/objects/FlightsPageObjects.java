@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 
 import com.vp.utils.BaseUtils;
 
@@ -33,12 +34,12 @@ public class FlightsPageObjects extends BaseUtils {
 			
 			if(ExpTitle.contains(ActTitle))
 			{
-				logWriter("PASS : \"Flights\" Page Opened.");
+				Reporter.log("PASS : \"Flights\" Page Opened.");
 			}
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Open \"Flights\" Page."+e.getMessage());
+			Reporter.log("FAIL : Could Not Open \"Flights\" Page."+e.getMessage());
 		}
 
 	}
@@ -51,12 +52,12 @@ public class FlightsPageObjects extends BaseUtils {
 		{	
 			if(ActTxt.contains(ExpTxt))
 			{
-				logWriter("PASS : \"Villa Details\" text is matched.");
+				Reporter.log("PASS : \"Villa Details\" text is matched.");
 			}
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : \"Villa Details\" text is not matched."+e.getMessage());
+			Reporter.log("FAIL : \"Villa Details\" text is not matched."+e.getMessage());
 		}
 		
 	}
@@ -65,12 +66,12 @@ public class FlightsPageObjects extends BaseUtils {
 		try 
 		{
 			BackBtntoSRPage.click();
-			logWriter("PASS : Clicked \"Back\" Button From \"Flights\" Page.");
+			Reporter.log("PASS : Clicked \"Back\" Button From \"Flights\" Page.");
 			
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could not click \"Back\" Button From \"Flights\" Page."+e.getMessage());
+			Reporter.log("FAIL : Could not click \"Back\" Button From \"Flights\" Page."+e.getMessage());
 		}		
 	}
 	public void clickContinueBtnFromFlights()
@@ -78,11 +79,11 @@ public class FlightsPageObjects extends BaseUtils {
 		try
 		{
 			ContinueBtnFromFlights.click();
-			logWriter("PASS : Clicked \"Continue\" Button From \"Flights\" page.");
+			Reporter.log("PASS : Clicked \"Continue\" Button From \"Flights\" page.");
 		}
 		catch (Exception e) 
 		{
-		logWriter("FAIL : Could Not Click \"Continue\" Button From \"Flights\" page."+e.getMessage());
+		Reporter.log("FAIL : Could Not Click \"Continue\" Button From \"Flights\" page."+e.getMessage());
 		}
 	}
 }

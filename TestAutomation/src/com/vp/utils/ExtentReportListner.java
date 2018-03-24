@@ -1,26 +1,32 @@
 package com.vp.utils;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.IReporter;
 import org.testng.IResultMap;
 import org.testng.ISuite;
 import org.testng.ISuiteResult;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
+import org.testng.Reporter;
 import org.testng.xml.XmlSuite;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
+import com.relevantcodes.extentreports.model.ITest;
 
 public class ExtentReportListner implements IReporter {
-	
 	private ExtentReports extent;
-	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) 
-	{
+
+	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
+			String outputDirectory) {
 		extent = new ExtentReports(outputDirectory + File.separator
 				+ "Extent.html", true);
 
@@ -28,6 +34,7 @@ public class ExtentReportListner implements IReporter {
 			Map<String, ISuiteResult> result = suite.getResults();
 
 			for (ISuiteResult r : result.values()) {
+				
 				ITestContext context = r.getTestContext();
 
 				buildTestNodes(context.getPassedTests(), LogStatus.PASS);
@@ -35,34 +42,53 @@ public class ExtentReportListner implements IReporter {
 				buildTestNodes(context.getSkippedTests(), LogStatus.SKIP);
 			}
 		}
-
+		
+		
 		extent.flush();
 		extent.close();
-		BaseUtils.driver.get(outputDirectory + "\\Extent.html");		
-		//BaseUtils.driver.get(outputDirectory + File.separator + "Extent.html");
+		
+		String reportURL = outputDirectory + "\\Extent.html";
+		try {
+			WebDriver driver = BaseUtils.initBrowser("Chrome", reportURL);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	private void buildTestNodes(IResultMap tests, LogStatus status) {
+		ExtentTest ParentTest;
 		ExtentTest test;
 
 		if (tests.size() > 0) {
 			for (ITestResult result : tests.getAllResults()) {
 				test = extent.startTest(result.getMethod().getMethodName());
-
 				test.setStartedTime(getTime(result.getStartMillis()));
 				test.setEndedTime(getTime(result.getEndMillis()));
 
 				for (String group : result.getMethod().getGroups())
 					test.assignCategory(group);
-				
-				if (result.getThrowable() != null) {
-					test.log(status, result.getThrowable());
-				} else {
-					test.log(status, "Test " + status.toString().toLowerCase()
-							+ "ed");
-				}
+				List<String> sList = Reporter.getOutput(result);
+//				ITest t = test.getTest();
+				for(String output : sList)
+				{
 
+					if (output.contains("FAIL")) 
+					{
+						
+						status = LogStatus.FAIL;
+						test.log(status, output);
+						//test.log(status, result.getThrowable());
+					}
+					else 
+					{
+						status = LogStatus.PASS;
+						test.log(status, output);
+					}
+
+				}
 				extent.endTest(test);
+				
 			}
 		}
 	}

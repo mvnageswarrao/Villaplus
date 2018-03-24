@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAutomationSmokeTestSuite" parallel="none" thread-count="2">
+
+<listeners>
+<listener class-name="com.vp.utils.ExtentReportListner"></listener>
+</listeners>
+
+	<parameter name="appURL" value="https://www.villaplus.com/" />
+	<parameter name="SeasonEndDate" value="05-23-2020" />
+	<parameter name="EmailID" value="testautomation@ash-software.com" />
+	<parameter name="PostCode" value="Al3 5NP" />
+	<parameter name="AdultsToSelect" value="2" />
+	<parameter name="ChildToSelect" value="2" />
+	<parameter name="InfantsToSelect" value="0" />
+	<parameter name="BookingType" value="PK" /> <!-- Mention "PK" or "VO" or "Conv" -->
+	
+	
+	<test name="RegressionTests">
+			<parameter name="browserType" value="firefox" />
+		<classes>
+			<class name="com.vp.tests.HomePageTests" />
+			<class name="com.vp.tests.SRPageTests" />
+			<class name="com.vp.tests.FlightPageTests" />
+			<class name="com.vp.tests.GroupDetailsPageTests" />
+			<class name="com.vp.tests.ExtrasPageTests" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -14,7 +14,7 @@ public class GroupDetailsPageTests extends BaseUtils {
 
 	GroupDetailPageObjects groupDetails;
 	
-	@Test(priority=5,groups= {"PKBooking","VOBooking"})
+	@Test(priority=5)
 	
    public void verifyContinuebtnFunctionality() throws IOException, ClassNotFoundException, SQLException, InterruptedException {
 		

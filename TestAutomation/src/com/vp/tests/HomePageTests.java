@@ -27,10 +27,10 @@ public class HomePageTests extends BaseUtils{
 	String centerCode;
 
 	@Parameters({"browserType", "appURL","AdultsToSelect","ChildToSelect", "InfantsToSelect","SeasonEndDate"})
-	@Test(priority=1,groups= {"PKBooking","VOBooking"})
+	@Test(priority=1)
 	public void verifySearchBtnFunctionality(String browserType, String appURL, String AdultsToSelect, String ChildToSelect, String InfantsToSelect, String EndDate) throws IOException, ClassNotFoundException, SQLException, ParseException, InterruptedException
 	{
-		driver = BaseUtils.initBrowser(browserType,appURL);
+		//driver = BaseUtils.initBrowser(browserType,appURL);
 		homepage = PageFactory.initElements(driver, HomePageObjects.class);
 		SRPage = PageFactory.initElements(driver, SRPageObjects.class);
 		do

@@ -1,7 +1,0 @@
-########## START ########## Booking : on https://www.villaplus.com/ 2018-02-19##########
-FAIL : Could not Select "Menorca" from Destinations Dropdown.Index: 24, Size: 24
-FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (e075cb2f5b3e9ec956e2064342a1b0a3)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
-########## START ########## Booking : on https://www.villaplus.com/ 2018-02-19##########
-FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (34d339e62a2660f32e6bf9ef276400bd)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34
-########## START ########## Booking : on https://www.villaplus.com/ 2018-02-19##########
-FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (e0e3c751bbe0e2fdf439f5a3c771d8b2)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34

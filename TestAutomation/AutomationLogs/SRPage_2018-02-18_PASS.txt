@@ -1,3 +1,0 @@
-PASS : "Search Results" Page Opened.
-PASS : 1 Villas found in Search Results page.
-PASS : Clicked "Book Villa Only" Button.

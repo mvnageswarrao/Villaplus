@@ -22,12 +22,20 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 public class BaseUtils {
 
 	public static WebDriver driver = null;
 	public static String path = System.getProperty("user.dir");
-	
+	@BeforeMethod
+	@Parameters({"browserType","appURL"})
 	public static WebDriver initBrowser(String browserType, String appURL) throws IOException{
 	
 	if(browserType.equalsIgnoreCase("chrome")) 
@@ -178,6 +186,12 @@ public class BaseUtils {
 //		report.flush();
 //		driver.get(System.getProperty(("user.dir")+"\\AutomationLogs\\MyReports\\Report.html"));
 //    }
+
+	@AfterMethod
+	public static void CloseBrowser()
+	{
+		BaseUtils.driver.quit();
+	}
 	protected void logWriter(String status)
 	{
 		String logfileName = "";
@@ -285,7 +299,6 @@ public class BaseUtils {
 
 			js.executeScript("arguments[0].setAttribute('style','border: solid 2px white');", element); 
 	}
-	
 	public static String captureScreenShot(WebDriver driver, String ScreenShotName)
 	{
 		try

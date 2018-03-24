@@ -12,6 +12,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
+
 import com.vp.utils.BaseUtils;
 
 public class HomePageObjects extends BaseUtils{
@@ -53,11 +55,12 @@ Random ran = new Random();
 		try
 		{
 			DestDropdown.click();
-			logWriter("PASS : Destinations Dropdown is Opened.");
+			Reporter.log("PASS : Destinations Dropdown is Opened.");
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could not Open Destinations Dropdown."+e.getMessage());
+			Reporter.log("FAIL : Could not Open Destinations Dropdown."+e.getMessage());
+			captureScreenShot(driver, "openDestDropDown");
 		}
 	}
 	public void selectDest(String DesttoSelect) 
@@ -76,11 +79,12 @@ Random ran = new Random();
 					break;
 				}
 			}
-			logWriter("PASS : \""+DesttoSelect+"\" Selected from Destinations Dropdown.");
+			Reporter.log("PASS : \""+DesttoSelect+"\" Selected from Destinations Dropdown.");
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could not Select \""+DesttoSelect+"\" from Destinations Dropdown."+e.getMessage());
+			Reporter.log("FAIL : Could not Select \""+DesttoSelect+"\" from Destinations Dropdown."+e.getMessage());
+			captureScreenShot(driver, "selectDest");
 		}
 		
 	}
@@ -89,11 +93,12 @@ Random ran = new Random();
 		try
 		{
 			Datebox.click();
-			logWriter("PASS : Clicked Date Text box.");
+			Reporter.log("PASS : Clicked Date Text box.");
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Clicked Date Text box."+e.getMessage());
+			Reporter.log("FAIL : Could Not Clicked Date Text box."+e.getMessage());
+			captureScreenShot(driver, "clickDateBox");
 
 		}		
 	}
@@ -115,12 +120,13 @@ Random ran = new Random();
 					break;
 				}
 			}
-			logWriter("PASS : Selected \""+MonToSelect+"\" From Month dropdown.");
+			Reporter.log("PASS : Selected \""+MonToSelect+"\" From Month dropdown.");
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Select \""+MonToSelect+"\" From Month dropdown."+e.getMessage());
+			Reporter.log("FAIL : Could Not Select \""+MonToSelect+"\" From Month dropdown."+e.getMessage());
+			captureScreenShot(driver, "selectMonth");
 		}
 	}
 	public void selectDate(String DateToSelect) throws ParseException
@@ -140,15 +146,15 @@ Random ran = new Random();
 				if(Integer.parseInt(Date.getText())==(Dateint))
 				{
 					Date.click();
-					logWriter("PASS : Selected \""+Dateint+"\" Date From Calender.");
+					Reporter.log("PASS : Selected \""+Dateint+"\" Date From Calender.");
 					break;
 				}
 			}
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Select a Date From Calender."+e.getMessage());
-
+			Reporter.log("FAIL : Could Not Select a Date From Calender."+e.getMessage());
+			captureScreenShot(driver, "selectDate");
 		}	
 	}
 	public void selectDuration()
@@ -167,15 +173,15 @@ Random ran = new Random();
 				if(Dur.getText().trim().equalsIgnoreCase(DurtoSelect))
 				{
 					Dur.click();
-					logWriter("PASS : Selected \""+Dur.getText()+"\" From Duration dropdown.");
+					Reporter.log("PASS : Selected \""+Dur.getText()+"\" From Duration dropdown.");
 					break;
 				}
 			}
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Select \""+DurtoSelect+"\" From Duration dropdown."+e.getMessage());
-
+			Reporter.log("FAIL : Could Not Select \""+DurtoSelect+"\" From Duration dropdown."+e.getMessage());
+			captureScreenShot(driver, "selectDuration");
 		}	
 		
 	}
@@ -185,12 +191,12 @@ Random ran = new Random();
 		try
 		{
 			AdultsSel.selectByValue(AdultsToSelect);
-			logWriter("PASS : Selected \""+AdultsToSelect+"\" Adults.");
+			Reporter.log("PASS : Selected \""+AdultsToSelect+"\" Adults.");
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Select \""+AdultsToSelect+"\" From Adults dropdown."+e.getMessage());
-
+			Reporter.log("FAIL : Could Not Select \""+AdultsToSelect+"\" From Adults dropdown."+e.getMessage());
+			captureScreenShot(driver, "selectAdults");
 		}	
 	}
 	public void selectChild(String ChildToSelect)
@@ -199,11 +205,13 @@ Random ran = new Random();
 		try
 		{
 			ChildSel.selectByValue(ChildToSelect);
-			logWriter("PASS : Selected \""+ChildToSelect+"\" Child.");
+			Reporter.log("PASS : Selected \""+ChildToSelect+"\" Child.");
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Select \""+ChildToSelect+"\" From Child dropdown."+e.getMessage());
+			Reporter.log("FAIL : Could Not Select \""+ChildToSelect+"\" From Child dropdown."+e.getMessage());
+			captureScreenShot(driver, "selectChild");
+
 		}	
 	}
 	public void selectInfants(String InfantsToSelect)
@@ -212,11 +220,12 @@ Random ran = new Random();
 		try
 		{
 			InfantsSel.selectByVisibleText(InfantsToSelect);
-			logWriter("PASS : Selected \""+InfantsToSelect+"\" Infants.");
+			Reporter.log("PASS : Selected \""+InfantsToSelect+"\" Infants.");
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Select \""+InfantsToSelect+"\" From Infants dropdown."+e.getMessage());
+			Reporter.log("FAIL : Could Not Select \""+InfantsToSelect+"\" From Infants dropdown."+e.getMessage());
+			captureScreenShot(driver, "selectInfants");
 		}	
 	}
 	public void SelectAirport()
@@ -237,11 +246,12 @@ Random ran = new Random();
 					break;
 				}
 			}
-			logWriter("PASS : Selected \""+AirportToSelect+"\" From Airports Dropdown.");
+			Reporter.log("PASS : Selected \""+AirportToSelect+"\" From Airports Dropdown.");
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Select \""+AirportToSelect+"\" From Airports dropdown."+e.getMessage());
+			Reporter.log("FAIL : Could Not Select \""+AirportToSelect+"\" From Airports dropdown."+e.getMessage());
+			captureScreenShot(driver, "SelectAirport");
 		}	
 		
 
@@ -250,12 +260,17 @@ Random ran = new Random();
 	{
 		try
 		{
+			
 			Search.click();
-			logWriter("PASS : Clicked \"Search\" Button from Search Tile.");
+			Reporter.log("PASS : Clicked \"Search\" Button from Search Tile.");
+//			logWriter("PASS : Clicked \"Search\" Button from Search Tile.");
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Click \"Search\" Button From Search Tile."+e.getMessage());
+			Reporter.log("FAIL : Could Not Click \"Search\" Button From Search Tile."+e.getMessage());
+			captureScreenShot(driver, "ClickSearchBtn");
+
+//			logWriter("FAIL : Could Not Click \"Search\" Button From Search Tile."+e.getMessage());
 		}	
 
 	}
@@ -266,12 +281,16 @@ Random ran = new Random();
 		try {
 			if(ExpTitle.trim().equalsIgnoreCase(ActTitle.trim()))
 			{
-				logWriter("PASS : \"Home Page\" is Opened.");
+				Reporter.log("PASS : \"Home Page\" is Opened.");
+				//logWriter("PASS : \"Home Page\" is Opened.");
 			}
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Open \"Home Page\"."+e.getMessage());
+			Reporter.log("FAIL : Could Not Open \"Home Page\"."+e.getMessage());
+			captureScreenShot(driver, "verifyHomePageOpened");
+
+			//logWriter("FAIL : Could Not Open \"Home Page\"."+e.getMessage());
 		}
 		
 	}

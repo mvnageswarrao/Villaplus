@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
+
 import com.vp.utils.BaseUtils;
 
 public class ExtrasPageObjects extends BaseUtils{
@@ -16,6 +18,12 @@ public class ExtrasPageObjects extends BaseUtils{
 	WebElement ContinueBtnFromExtras;
 	@FindBy(how = How.LINK_TEXT, using = "I Agree")
 	WebElement IAgreeBtnFromExtras; 
+	@FindBy(how = How.ID,using="CustInfoDetailsPopUp")
+	WebElement FlightInfoPopup;
+	@FindBy(how = How.ID,using="InsBtnNo")
+	WebElement LaterBtn;
+	@FindBy(how = How.ID,using="InsBtnOk")
+	WebElement SaveBtn;
 	
 	
 	public ExtrasPageObjects(WebDriver driver)
@@ -32,17 +40,17 @@ public class ExtrasPageObjects extends BaseUtils{
 			
 			if(ExpTitle == ActTitle) {
 				
-				logWriter("PASS : \"Extras\" page Title is "+ ActTitle);
+				Reporter.log("PASS : \"Extras\" page Title is "+ ActTitle);
 			}
 			
 			else {
 				
-				logWriter("FAIL : \"Extras\" Page Title is " + ActTitle);
+				Reporter.log("FAIL : \"Extras\" Page Title is " + ActTitle);
 			
 			}
 		}
 		catch(Exception e) {
-			logWriter("FAIL : " + e.getMessage());
+			Reporter.log("FAIL : " + e.getMessage());
 		}
 	}
 	
@@ -51,12 +59,12 @@ public class ExtrasPageObjects extends BaseUtils{
 		try 
 		{
 			BackBtntoGrpDetailsPage.click();
-			logWriter("PASS : Clicked \"Back\" Button From \"Extras\" Page.");
+			Reporter.log("PASS : Clicked \"Back\" Button From \"Extras\" Page.");
 			
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could not click \"Back\" Button From \"Extras\" Page."+e.getMessage());
+			Reporter.log("FAIL : Could not click \"Back\" Button From \"Extras\" Page."+e.getMessage());
 		}		
 	}
 	
@@ -65,25 +73,55 @@ public class ExtrasPageObjects extends BaseUtils{
 		try
 		{
 			ContinueBtnFromExtras.click();
-			logWriter("PASS : Clicked \"Continue\" Button From \"Extras\" page.");
+			Reporter.log("PASS : Clicked \"Continue\" Button From \"Extras\" page.");
 		}
 		catch (Exception e) 
 		{
-		logWriter("FAIL : Could Not Click \"Continue\" Button From \"Extras\" page."+e.getMessage());
+		Reporter.log("FAIL : Could Not Click \"Continue\" Button From \"Extras\" page."+e.getMessage());
 		}
 	}
-	
+
 	public void clickIAgreeBtnFromExtras(){
 		
 		try
 		{
 			IAgreeBtnFromExtras.click();
-			logWriter("PASS : Clicked \"I Agree\" Button From \"Extras\" page.");
+			Reporter.log("PASS : Clicked \"I Agree\" Button From \"Extras\" page.");
 		}
 		catch (Exception e) 
 		{
-		logWriter("FAIL : Could Not Click \"I Agree\" Button From \"Extras\" page."+e.getMessage());
+		Reporter.log("FAIL : Could Not Click \"I Agree\" Button From \"Extras\" page."+e.getMessage());
 		}
 	}
 
+	public void clickLaterBtn()
+	{
+		driver.switchTo().activeElement();
+		focusElement(driver, LaterBtn);
+		try
+		{
+			LaterBtn.click();
+			Reporter.log("PASS : Clicked \"Later\" Button From \"Flight Info\" Popup.");
+		}
+		catch (Exception e) 
+		{
+			Reporter.log("FAIL : Could Not Click \"Later\" Button From \"Flight Info\" Popup."+e.getMessage());
+		}
+	}
+		
+		public void clickSaveBtn()
+		{
+			driver.switchTo().activeElement();
+			try
+			{
+				SaveBtn.click();
+				Reporter.log("PASS : Clicked \"Save\" Button From \"Flight Info\" Popup.");
+			}
+			catch (Exception e) 
+			{
+			Reporter.log("FAIL : Could Not Click \"Save\" Button From \"Flight Info\" Popup."+e.getMessage());
+			}
+		
+		}
+	
 }

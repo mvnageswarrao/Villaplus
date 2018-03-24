@@ -1,67 +1,527 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="2" total="14" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[PASS : "Home Page" is Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Destinations Dropdown is Opened.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could not Select "Menorca" from Destinations Dropdown.Index: 24, Size: 24]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked Date Text box.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "September 2018" From Month dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "28" Date From Calender.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "14 nights" From Duration dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "2" Adults.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "2" Child.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "0" Infants.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (110d46a4cbfa9c68af4119521b4c185b)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Search" Button from Search Tile.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Search Results" Page Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : 51 Villas found in Search Results page.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Book Villa & Flights" Button.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Flights" Page Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Continue" Button From "Flights" page.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : "Group Detail" Page Title is Villa Plus | Flights]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Selected]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Selected]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Selected]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding EmailId ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding EmailId ]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Adding EmailIdelement not visible  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 110d46a4cbfa9c68af4119521b4c185b]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Confirm EmailId ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding a Day Phone no Code ]]>
+    </line>
+    <line>
+      <![CDATA[FAIL :no such element: Unable to locate element: {"method":"id","selector":"BtnOk"}  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 110d46a4cbfa9c68af4119521b4c185b*** Element info: {Using=id, value=BtnOk}]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : "Extras" Page Title is Villa Plus | Group Details]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could Not Click "Continue" Button From "Extras" page.no such element: Unable to locate element: {"method":"link text","selector":"Continue"}  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 110d46a4cbfa9c68af4119521b4c185b*** Element info: {Using=link text, value=Continue}]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could Not Click "I Agree" Button From "Extras" page.no such element: Unable to locate element: {"method":"link text","selector":"I Agree"}  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 110d46a4cbfa9c68af4119521b4c185b*** Element info: {Using=link text, value=I Agree}]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Home Page" is Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Destinations Dropdown is Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Algarve" Selected from Destinations Dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked Date Text box.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "August 2018" From Month dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "19" Date From Calender.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "14 nights" From Duration dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "2" Adults.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "2" Child.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "0" Infants.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (8c59856ef055b7557ff2e167ad4d8f08)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Search" Button from Search Tile.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Search Results" Page Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : 0 Villas found in Search Results page.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Destinations Dropdown is Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Rhodes" Selected from Destinations Dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked Date Text box.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "August 2018" From Month dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "1" Date From Calender.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "28 nights" From Duration dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "2" Adults.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "2" Child.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "0" Infants.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (8c59856ef055b7557ff2e167ad4d8f08)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Search" Button from Search Tile.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Search Results" Page Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : 0 Villas found in Search Results page.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Destinations Dropdown is Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Costa del Sol" Selected from Destinations Dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked Date Text box.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "July 2018" From Month dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "13" Date From Calender.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "14 nights" From Duration dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "2" Adults.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "2" Child.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "0" Infants.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (8c59856ef055b7557ff2e167ad4d8f08)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Search" Button from Search Tile.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Search Results" Page Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : 6 Villas found in Search Results page.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Book Villa Only" Button.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could Not click "Book Villa Only" Button.stale element reference: element is not attached to the page document  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 8c59856ef055b7557ff2e167ad4d8f08]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Continue" Button From "Flights" page.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : "Group Detail" Page Title is Villa Plus | Group Details]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Selected]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Selected]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Selected]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Selected]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding EmailId ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding EmailId ]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Adding EmailIdelement not visible  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 8c59856ef055b7557ff2e167ad4d8f08]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Confirm EmailId ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding a Day Phone no Code ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Click on I Agree Button]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : "Extras" Page Title is Villa Plus | Group Details]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Continue" Button From "Extras" page.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could Not Click "I Agree" Button From "Extras" page.no such element: Unable to locate element: {"method":"link text","selector":"I Agree"}  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 8c59856ef055b7557ff2e167ad4d8f08*** Element info: {Using=link text, value=I Agree}]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Later" Button From "Flight Info" Popup.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Home Page" is Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Destinations Dropdown is Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Fuerteventura" Selected from Destinations Dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked Date Text box.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "December 2018" From Month dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "8" Date From Calender.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "28 nights" From Duration dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "2" Adults.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "2" Child.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Selected "0" Infants.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (5a560f6a5a4a9d6d968c7234196d20ed)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Search" Button from Search Tile.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : "Search Results" Page Opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : 7 Villas found in Search Results page.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Book Villa Only" Button.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could Not click "Book Villa Only" Button.stale element reference: element is not attached to the page document  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 5a560f6a5a4a9d6d968c7234196d20ed]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Continue" Button From "Flights" page.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : "Group Detail" Page Title is Villa Plus | Group Details]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Selected]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Selected]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Selected]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[PASS : \ Title is Selected]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding First Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding EmailId ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding EmailId ]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Adding EmailIdelement not visible  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 5a560f6a5a4a9d6d968c7234196d20ed]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Confirm EmailId ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding Age]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Adding a Day Phone no Code ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Click on I Agree Button]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : "Extras" Page Title is Villa Plus | Group Details]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Clicked "Continue" Button From "Extras" page.]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Could Not Click "I Agree" Button From "Extras" page.no such element: Unable to locate element: {"method":"link text","selector":"I Agree"}  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 5a560f6a5a4a9d6d968c7234196d20ed*** Element info: {Using=link text, value=I Agree}]]>
+    </line>
   </reporter-output>
-  <suite name="TestAutomationSmokeTests" duration-ms="172660" started-at="2018-02-23T14:19:32Z" finished-at="2018-02-23T14:22:24Z">
+  <suite name="TestAutomationSmokeTestSuite" duration-ms="542523" started-at="2018-03-16T01:18:37Z" finished-at="2018-03-16T01:27:40Z">
     <groups>
-      <group name="PKBooking">
-        <method signature="ExtrasPageTests.VerifyExtrasPage()[pri:6, instance:com.vp.tests.ExtrasPageTests@4dfa3a9d]" name="VerifyExtrasPage" class="com.vp.tests.ExtrasPageTests"/>
-        <method signature="FlightPageTests.VerifyFlightspage()[pri:4, instance:com.vp.tests.FlightPageTests@754ba872]" name="VerifyFlightspage" class="com.vp.tests.FlightPageTests"/>
-        <method signature="GroupDetailsPageTests.verifyContinuebtnFunctionality()[pri:5, instance:com.vp.tests.GroupDetailsPageTests@146ba0ac]" name="verifyContinuebtnFunctionality" class="com.vp.tests.GroupDetailsPageTests"/>
-        <method signature="HomePageTests.verifySearchBtnFunctionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.vp.tests.HomePageTests@4667ae56]" name="verifySearchBtnFunctionality" class="com.vp.tests.HomePageTests"/>
-        <method signature="SRPageTests.verifySearchResultspage()[pri:2, instance:com.vp.tests.SRPageTests@e25b2fe]" name="verifySearchResultspage" class="com.vp.tests.SRPageTests"/>
-        <method signature="ExtrasPageTests.VerifyExtrasPage()[pri:6, instance:com.vp.tests.ExtrasPageTests@4566e5bd]" name="VerifyExtrasPage" class="com.vp.tests.ExtrasPageTests"/>
-        <method signature="FlightPageTests.VerifyFlightspage()[pri:4, instance:com.vp.tests.FlightPageTests@13805618]" name="VerifyFlightspage" class="com.vp.tests.FlightPageTests"/>
-        <method signature="GroupDetailsPageTests.verifyContinuebtnFunctionality()[pri:5, instance:com.vp.tests.GroupDetailsPageTests@56ef9176]" name="verifyContinuebtnFunctionality" class="com.vp.tests.GroupDetailsPageTests"/>
-        <method signature="HomePageTests.verifySearchBtnFunctionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.vp.tests.HomePageTests@5cb9f472]" name="verifySearchBtnFunctionality" class="com.vp.tests.HomePageTests"/>
-        <method signature="SRPageTests.openPKSummaryPage()[pri:3, instance:com.vp.tests.SRPageTests@cb644e]" name="openPKSummaryPage" class="com.vp.tests.SRPageTests"/>
-        <method signature="SRPageTests.verifySearchResultspage()[pri:2, instance:com.vp.tests.SRPageTests@cb644e]" name="verifySearchResultspage" class="com.vp.tests.SRPageTests"/>
-      </group> <!-- PKBooking -->
-      <group name="VOBooking">
-        <method signature="ExtrasPageTests.VerifyExtrasPage()[pri:6, instance:com.vp.tests.ExtrasPageTests@4dfa3a9d]" name="VerifyExtrasPage" class="com.vp.tests.ExtrasPageTests"/>
-        <method signature="FlightPageTests.VerifyFlightspage()[pri:4, instance:com.vp.tests.FlightPageTests@754ba872]" name="VerifyFlightspage" class="com.vp.tests.FlightPageTests"/>
-        <method signature="GroupDetailsPageTests.verifyContinuebtnFunctionality()[pri:5, instance:com.vp.tests.GroupDetailsPageTests@146ba0ac]" name="verifyContinuebtnFunctionality" class="com.vp.tests.GroupDetailsPageTests"/>
-        <method signature="HomePageTests.verifySearchBtnFunctionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.vp.tests.HomePageTests@4667ae56]" name="verifySearchBtnFunctionality" class="com.vp.tests.HomePageTests"/>
-        <method signature="SRPageTests.openVOSummaryPage()[pri:3, instance:com.vp.tests.SRPageTests@e25b2fe]" name="openVOSummaryPage" class="com.vp.tests.SRPageTests"/>
-        <method signature="SRPageTests.verifySearchResultspage()[pri:2, instance:com.vp.tests.SRPageTests@e25b2fe]" name="verifySearchResultspage" class="com.vp.tests.SRPageTests"/>
-        <method signature="ExtrasPageTests.VerifyExtrasPage()[pri:6, instance:com.vp.tests.ExtrasPageTests@4566e5bd]" name="VerifyExtrasPage" class="com.vp.tests.ExtrasPageTests"/>
-        <method signature="FlightPageTests.VerifyFlightspage()[pri:4, instance:com.vp.tests.FlightPageTests@13805618]" name="VerifyFlightspage" class="com.vp.tests.FlightPageTests"/>
-        <method signature="GroupDetailsPageTests.verifyContinuebtnFunctionality()[pri:5, instance:com.vp.tests.GroupDetailsPageTests@56ef9176]" name="verifyContinuebtnFunctionality" class="com.vp.tests.GroupDetailsPageTests"/>
-        <method signature="HomePageTests.verifySearchBtnFunctionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.vp.tests.HomePageTests@5cb9f472]" name="verifySearchBtnFunctionality" class="com.vp.tests.HomePageTests"/>
-        <method signature="SRPageTests.verifySearchResultspage()[pri:2, instance:com.vp.tests.SRPageTests@cb644e]" name="verifySearchResultspage" class="com.vp.tests.SRPageTests"/>
-      </group> <!-- VOBooking -->
     </groups>
-    <test name="SmokeTestsOnFirefox" duration-ms="112406" started-at="2018-02-23T14:19:32Z" finished-at="2018-02-23T14:21:24Z">
-      <class name="com.vp.tests.FlightPageTests">
-        <test-method status="PASS" signature="VerifyFlightspage()[pri:4, instance:com.vp.tests.FlightPageTests@754ba872]" name="VerifyFlightspage" duration-ms="3348" started-at="2018-02-23T19:50:17Z" finished-at="2018-02-23T19:50:21Z">
+    <test name="SmokeTests" duration-ms="542523" started-at="2018-03-16T01:18:37Z" finished-at="2018-03-16T01:27:40Z">
+      <class name="com.vp.tests.ConvertedBooking">
+        <test-method status="PASS" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.vp.tests.ConvertedBooking@4dfa3a9d]" name="initBrowser" is-config="true" duration-ms="47880" started-at="2018-03-16T06:55:06Z" finished-at="2018-03-16T06:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.villaplus.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyFlightspage -->
-      </class> <!-- com.vp.tests.FlightPageTests -->
-      <class name="com.vp.tests.SRPageTests">
-        <test-method status="PASS" signature="verifySearchResultspage()[pri:2, instance:com.vp.tests.SRPageTests@e25b2fe]" name="verifySearchResultspage" duration-ms="3" started-at="2018-02-23T19:50:05Z" finished-at="2018-02-23T19:50:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchResultspage -->
-        <test-method status="PASS" signature="openVOSummaryPage()[pri:3, instance:com.vp.tests.SRPageTests@e25b2fe]" name="openVOSummaryPage" duration-ms="12523" started-at="2018-02-23T19:50:05Z" finished-at="2018-02-23T19:50:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openVOSummaryPage -->
-      </class> <!-- com.vp.tests.SRPageTests -->
-      <class name="com.vp.tests.GroupDetailsPageTests">
-        <test-method status="PASS" signature="verifyContinuebtnFunctionality()[pri:5, instance:com.vp.tests.GroupDetailsPageTests@146ba0ac]" name="verifyContinuebtnFunctionality" duration-ms="28693" started-at="2018-02-23T19:50:21Z" finished-at="2018-02-23T19:50:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContinuebtnFunctionality -->
-      </class> <!-- com.vp.tests.GroupDetailsPageTests -->
-      <class name="com.vp.tests.ExtrasPageTests">
-        <test-method status="PASS" signature="VerifyExtrasPage()[pri:6, instance:com.vp.tests.ExtrasPageTests@4dfa3a9d]" name="VerifyExtrasPage" duration-ms="34863" started-at="2018-02-23T19:50:49Z" finished-at="2018-02-23T19:51:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyExtrasPage -->
-      </class> <!-- com.vp.tests.ExtrasPageTests -->
-      <class name="com.vp.tests.HomePageTests">
-        <test-method status="PASS" signature="verifySearchBtnFunctionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.vp.tests.HomePageTests@4667ae56]" name="verifySearchBtnFunctionality" duration-ms="32924" started-at="2018-02-23T19:49:32Z" finished-at="2018-02-23T19:50:05Z">
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="ConvertedBookingVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.vp.tests.ConvertedBooking@4dfa3a9d]" name="ConvertedBookingVerification" duration-ms="105047" started-at="2018-03-16T06:55:54Z" finished-at="2018-03-16T06:57:39Z">
           <params>
             <param index="0">
               <value>
@@ -95,69 +555,176 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[PASS : "Home Page" is Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Destinations Dropdown is Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : "Fuerteventura" Selected from Destinations Dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked Date Text box.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "December 2018" From Month dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "8" Date From Calender.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "28 nights" From Duration dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "2" Adults.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "2" Child.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "0" Infants.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (5a560f6a5a4a9d6d968c7234196d20ed)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Search" Button from Search Tile.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : "Search Results" Page Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : 7 Villas found in Search Results page.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Book Villa Only" Button.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could Not click "Book Villa Only" Button.stale element reference: element is not attached to the page document  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 5a560f6a5a4a9d6d968c7234196d20ed]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Continue" Button From "Flights" page.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : "Group Detail" Page Title is Villa Plus | Group Details]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Selected]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Selected]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Selected]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Selected]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding EmailId ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding EmailId ]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Adding EmailIdelement not visible  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 5a560f6a5a4a9d6d968c7234196d20ed]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Confirm EmailId ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding a Day Phone no Code ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Click on I Agree Button]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : "Extras" Page Title is Villa Plus | Group Details]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Continue" Button From "Extras" page.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could Not Click "I Agree" Button From "Extras" page.no such element: Unable to locate element: {"method":"link text","selector":"I Agree"}  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 5a560f6a5a4a9d6d968c7234196d20ed*** Element info: {Using=link text, value=I Agree}]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifySearchBtnFunctionality -->
-      </class> <!-- com.vp.tests.HomePageTests -->
-    </test> <!-- SmokeTestsOnFirefox -->
-    <test name="RegressionTestsOnFirefox" duration-ms="60237" started-at="2018-02-23T14:21:24Z" finished-at="2018-02-23T14:22:24Z">
-      <class name="com.vp.tests.FlightPageTests">
-        <test-method status="FAIL" signature="VerifyFlightspage()[pri:4, instance:com.vp.tests.FlightPageTests@13805618]" name="VerifyFlightspage" duration-ms="15" started-at="2018-02-23T19:52:24Z" finished-at="2018-02-23T19:52:24Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.0.10.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10348, moz:profile: C:\Users\veera\AppData\Loca..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: c59a9a84-6599-4546-a13d-445e48bf9493]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connectionBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.0.10.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10348, moz:profile: C:\Users\veera\AppData\Loca..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: c59a9a84-6599-4546-a13d-445e48bf9493at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:329)at com.vp.objects.FlightsPageObjects.verifyFlightsPageOpened(FlightsPageObjects.java:31)at com.vp.tests.FlightPageTests.VerifyFlightspage(FlightPageTests.java:24)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        </test-method> <!-- ConvertedBookingVerification -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.vp.tests.ConvertedBooking@4dfa3a9d]" name="CloseBrowser" is-config="true" duration-ms="796" started-at="2018-03-16T06:57:39Z" finished-at="2018-03-16T06:57:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyFlightspage -->
-      </class> <!-- com.vp.tests.FlightPageTests -->
-      <class name="com.vp.tests.SRPageTests">
-        <test-method status="PASS" signature="verifySearchResultspage()[pri:2, instance:com.vp.tests.SRPageTests@cb644e]" name="verifySearchResultspage" duration-ms="0" started-at="2018-02-23T19:52:24Z" finished-at="2018-02-23T19:52:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchResultspage -->
-        <test-method status="PASS" signature="openPKSummaryPage()[pri:3, instance:com.vp.tests.SRPageTests@cb644e]" name="openPKSummaryPage" duration-ms="0" started-at="2018-02-23T19:52:24Z" finished-at="2018-02-23T19:52:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openPKSummaryPage -->
-      </class> <!-- com.vp.tests.SRPageTests -->
-      <class name="com.vp.tests.GroupDetailsPageTests">
-        <test-method status="FAIL" signature="verifyContinuebtnFunctionality()[pri:5, instance:com.vp.tests.GroupDetailsPageTests@56ef9176]" name="verifyContinuebtnFunctionality" duration-ms="0" started-at="2018-02-23T19:52:24Z" finished-at="2018-02-23T19:52:24Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.0.10.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10348, moz:profile: C:\Users\veera\AppData\Loca..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: c59a9a84-6599-4546-a13d-445e48bf9493]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connectionBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.0.10.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10348, moz:profile: C:\Users\veera\AppData\Loca..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: c59a9a84-6599-4546-a13d-445e48bf9493at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:329)at com.vp.objects.GroupDetailPageObjects.verifyGroupDetailPageTitle(GroupDetailPageObjects.java:443)at com.vp.tests.GroupDetailsPageTests.verifyContinuebtnFunctionality(GroupDetailsPageTests.java:23)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContinuebtnFunctionality -->
-      </class> <!-- com.vp.tests.GroupDetailsPageTests -->
-      <class name="com.vp.tests.ExtrasPageTests">
-        <test-method status="FAIL" signature="VerifyExtrasPage()[pri:6, instance:com.vp.tests.ExtrasPageTests@4566e5bd]" name="VerifyExtrasPage" duration-ms="16" started-at="2018-02-23T19:52:24Z" finished-at="2018-02-23T19:52:24Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.0.10.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10348, moz:profile: C:\Users\veera\AppData\Loca..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: c59a9a84-6599-4546-a13d-445e48bf9493]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connectionBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.0.10.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10348, moz:profile: C:\Users\veera\AppData\Loca..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: c59a9a84-6599-4546-a13d-445e48bf9493at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:329)at com.vp.objects.ExtrasPageObjects.verifyExtrasPageOpened(ExtrasPageObjects.java:30)at com.vp.tests.ExtrasPageTests.VerifyExtrasPage(ExtrasPageTests.java:17)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyExtrasPage -->
-      </class> <!-- com.vp.tests.ExtrasPageTests -->
-      <class name="com.vp.tests.HomePageTests">
-        <test-method status="FAIL" signature="verifySearchBtnFunctionality(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.vp.tests.HomePageTests@5cb9f472]" name="verifySearchBtnFunctionality" duration-ms="60204" started-at="2018-02-23T19:51:24Z" finished-at="2018-02-23T19:52:24Z">
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.vp.tests.ConvertedBooking -->
+      <class name="com.vp.tests.VillaOnlyBooking">
+        <test-method status="PASS" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.vp.tests.VillaOnlyBooking@754ba872]" name="initBrowser" is-config="true" duration-ms="22074" started-at="2018-03-16T06:52:25Z" finished-at="2018-03-16T06:52:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.villaplus.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="VillaOnlyBookingVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.vp.tests.VillaOnlyBooking@754ba872]" name="VillaOnlyBookingVerification" duration-ms="137758" started-at="2018-03-16T06:52:47Z" finished-at="2018-03-16T06:55:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -186,18 +753,429 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.0.10.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10348, moz:profile: C:\Users\veera\AppData\Loca..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: c59a9a84-6599-4546-a13d-445e48bf9493*** Element info: {Using=class name, value=ui-datepicker-month}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connectionBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.0.10.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10348, moz:profile: C:\Users\veera\AppData\Loca..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: c59a9a84-6599-4546-a13d-445e48bf9493*** Element info: {Using=class name, value=ui-datepicker-month}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)at org.openqa.selenium.By$ByClassName.findElement(By.java:391)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)at com.sun.proxy.$Proxy8.getTagName(Unknown Source)at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)at com.vp.objects.HomePageObjects.selectMonth(HomePageObjects.java:106)at com.vp.tests.HomePageTests.verifySearchBtnFunctionality(HomePageTests.java:46)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[PASS : "Home Page" is Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Destinations Dropdown is Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : "Algarve" Selected from Destinations Dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked Date Text box.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "August 2018" From Month dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "19" Date From Calender.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "14 nights" From Duration dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "2" Adults.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "2" Child.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "0" Infants.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (8c59856ef055b7557ff2e167ad4d8f08)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Search" Button from Search Tile.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : "Search Results" Page Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : 0 Villas found in Search Results page.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Destinations Dropdown is Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : "Rhodes" Selected from Destinations Dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked Date Text box.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "August 2018" From Month dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "1" Date From Calender.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "28 nights" From Duration dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "2" Adults.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "2" Child.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "0" Infants.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (8c59856ef055b7557ff2e167ad4d8f08)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Search" Button from Search Tile.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : "Search Results" Page Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : 0 Villas found in Search Results page.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Destinations Dropdown is Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : "Costa del Sol" Selected from Destinations Dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked Date Text box.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "July 2018" From Month dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "13" Date From Calender.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "14 nights" From Duration dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "2" Adults.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "2" Child.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "0" Infants.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (8c59856ef055b7557ff2e167ad4d8f08)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Search" Button from Search Tile.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : "Search Results" Page Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : 6 Villas found in Search Results page.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Book Villa Only" Button.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could Not click "Book Villa Only" Button.stale element reference: element is not attached to the page document  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 8c59856ef055b7557ff2e167ad4d8f08]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Continue" Button From "Flights" page.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : "Group Detail" Page Title is Villa Plus | Group Details]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Selected]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Selected]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Selected]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Selected]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding EmailId ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding EmailId ]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Adding EmailIdelement not visible  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 8c59856ef055b7557ff2e167ad4d8f08]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Confirm EmailId ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding a Day Phone no Code ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Click on I Agree Button]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : "Extras" Page Title is Villa Plus | Group Details]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Continue" Button From "Extras" page.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could Not Click "I Agree" Button From "Extras" page.no such element: Unable to locate element: {"method":"link text","selector":"I Agree"}  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 8c59856ef055b7557ff2e167ad4d8f08*** Element info: {Using=link text, value=I Agree}]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Later" Button From "Flight Info" Popup.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VillaOnlyBookingVerification -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.vp.tests.VillaOnlyBooking@754ba872]" name="CloseBrowser" is-config="true" duration-ms="759" started-at="2018-03-16T06:55:05Z" finished-at="2018-03-16T06:55:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchBtnFunctionality -->
-      </class> <!-- com.vp.tests.HomePageTests -->
-    </test> <!-- RegressionTestsOnFirefox -->
-  </suite> <!-- TestAutomationSmokeTests -->
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.vp.tests.VillaOnlyBooking -->
+      <class name="com.vp.tests.PackageBooking">
+        <test-method status="PASS" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.vp.tests.PackageBooking@146ba0ac]" name="initBrowser" is-config="true" duration-ms="37214" started-at="2018-03-16T06:48:37Z" finished-at="2018-03-16T06:49:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.villaplus.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="PackageBookingVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.vp.tests.PackageBooking@146ba0ac]" name="PackageBookingVerification" duration-ms="190156" started-at="2018-03-16T06:49:14Z" finished-at="2018-03-16T06:52:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.villaplus.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[05-23-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS : "Home Page" is Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Destinations Dropdown is Opened.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could not Select "Menorca" from Destinations Dropdown.Index: 24, Size: 24]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked Date Text box.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "September 2018" From Month dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "28" Date From Calender.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "14 nights" From Duration dropdown.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "2" Adults.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "2" Child.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Selected "0" Infants.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could Not Select "[[[[ChromeDriver: chrome on XP (110d46a4cbfa9c68af4119521b4c185b)] -> id: ddAirports]] -> tag name: option]" From Airports dropdown.Index: 34, Size: 34]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Search" Button from Search Tile.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : "Search Results" Page Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : 51 Villas found in Search Results page.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Book Villa & Flights" Button.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : "Flights" Page Opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Clicked "Continue" Button From "Flights" page.]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : "Group Detail" Page Title is Villa Plus | Flights]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Selected]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Selected]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[PASS : \ Title is Selected]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding First Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding EmailId ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding EmailId ]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Adding EmailIdelement not visible  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 110d46a4cbfa9c68af4119521b4c185b]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Confirm EmailId ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding Age]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Adding a Day Phone no Code ]]>
+            </line>
+            <line>
+              <![CDATA[FAIL :no such element: Unable to locate element: {"method":"id","selector":"BtnOk"}  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 110d46a4cbfa9c68af4119521b4c185b*** Element info: {Using=id, value=BtnOk}]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : "Extras" Page Title is Villa Plus | Group Details]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could Not Click "Continue" Button From "Extras" page.no such element: Unable to locate element: {"method":"link text","selector":"Continue"}  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 110d46a4cbfa9c68af4119521b4c185b*** Element info: {Using=link text, value=Continue}]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Could Not Click "I Agree" Button From "Extras" page.no such element: Unable to locate element: {"method":"link text","selector":"I Agree"}  (Session info: chrome=64.0.3282.186)  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'ASH-LPT-19', ip: '10.81.234.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\veera\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}Session ID: 110d46a4cbfa9c68af4119521b4c185b*** Element info: {Using=link text, value=I Agree}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PackageBookingVerification -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.vp.tests.PackageBooking@146ba0ac]" name="CloseBrowser" is-config="true" duration-ms="801" started-at="2018-03-16T06:52:25Z" finished-at="2018-03-16T06:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.vp.tests.PackageBooking -->
+    </test> <!-- SmokeTests -->
+  </suite> <!-- TestAutomationSmokeTestSuite -->
 </testng-results>

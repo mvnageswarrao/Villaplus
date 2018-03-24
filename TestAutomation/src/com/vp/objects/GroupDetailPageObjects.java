@@ -10,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 
 import com.vp.utils.BaseUtils;
 
@@ -81,54 +82,54 @@ public class GroupDetailPageObjects extends BaseUtils {
 	public void insertAddress1(String Address) {
 		try {
 			Address1.sendKeys(Address);
-			logWriter("PASS :");
+			Reporter.log("PASS :");
 		}
 		catch(Exception e ) {
 			
-			logWriter("FAIL :" +e.getMessage());
+			Reporter.log("FAIL :" +e.getMessage());
 		}
 	}
 	
 	public void insertAddress2(String Address) {
 		try {
 			Address2.sendKeys(Address);
-			logWriter("PASS :");
+			Reporter.log("PASS :");
 		}
 		catch(Exception e ) {
 			
-			logWriter("FAIL :" +e.getMessage());
+			Reporter.log("FAIL :" +e.getMessage());
 		}
 	}
 	
 	public void insertAddress3(String Address) {
 		try {
 			Address3.sendKeys(Address);
-			logWriter("PASS :");
+			Reporter.log("PASS :");
 		}
 		catch(Exception e ) {
 			
-			logWriter("FAIL :" +e.getMessage());
+			Reporter.log("FAIL :" +e.getMessage());
 		}
 	}
 	
 	public void insertAddress4(String Address) {
 		try {
 			Address4.sendKeys(Address);
-			logWriter("PASS :");
+			Reporter.log("PASS :");
 		}
 		catch(Exception e ) {
 			
-			logWriter("FAIL :" +e.getMessage());
+			Reporter.log("FAIL :" +e.getMessage());
 		}
 	}
 
 	public void insertNonUKCode() {
 		try {
 			NonUKPostCode.sendKeys("ash7357t979");
-			logWriter("PASS :");
+			Reporter.log("PASS :");
 		}
 		catch(Exception e) {
-			logWriter("FAIL :"+e.getMessage());
+			Reporter.log("FAIL :"+e.getMessage());
 		}
 	}
 	//Function for Click on I Agree button When we continue from Group Details page
@@ -137,11 +138,11 @@ public class GroupDetailPageObjects extends BaseUtils {
 		try {
 		
 			driver.findElement(By.id("BtnOk")).click();
-			logWriter("PASS : Click on I Agree Button");
+			Reporter.log("PASS : Click on I Agree Button");
 		}
 		catch(Exception e) {
 			
-			logWriter("FAIL :" +e.getMessage());
+			Reporter.log("FAIL :" +e.getMessage());
 		}
 	}
 	//Function for to select the Address Using Postal code
@@ -192,11 +193,11 @@ public class GroupDetailPageObjects extends BaseUtils {
 					Town_City.sendKeys("kfhvhjh");
 					Country.sendKeys("UK");
 					UKPostCode.sendKeys("al3 4bh");
-					logWriter("PASS :  Adding Manual Address ");
+					Reporter.log("PASS :  Adding Manual Address ");
 			}
 			
 			catch(Exception e) {
-					logWriter("FAIL :" + e.getMessage());
+					Reporter.log("FAIL :" + e.getMessage());
 					System.out.println(e.getMessage());
 			}
 	}
@@ -209,24 +210,24 @@ public class GroupDetailPageObjects extends BaseUtils {
 
 			for (WebElement w: TitleList) {
 				w.click();
-				logWriter("PASS : \\ Title is Clickable" );
+				Reporter.log("PASS : \\ Title is Clickable" );
 				try {
 					 Select seltitle=new Select(w);
 					 List<WebElement> DropdownList =seltitle.getOptions();
 					 int Count=DropdownList.size();
 					 int index=RandomGenerator(Count-2);
 					 seltitle.selectByIndex(1);
-					 logWriter("PASS : \\ Title is Selected" );
+					 Reporter.log("PASS : \\ Title is Selected" );
 		        }
 			
 			catch(Exception e) {
 				
-				logWriter("FAIL : " + e.getMessage());
+				Reporter.log("FAIL : " + e.getMessage());
 			}
 		   }
 		}
 		catch(Exception e) {
-			logWriter("FAIL : " + e.getMessage());
+			Reporter.log("FAIL : " + e.getMessage());
 		}
 	}
 	public static int RandomGenerator(int Limit) {
@@ -247,12 +248,12 @@ public class GroupDetailPageObjects extends BaseUtils {
 					w.sendKeys("abcd");
 				}
 				i++;
-				logWriter("PASS : Adding First Name " );
+				Reporter.log("PASS : Adding First Name " );
 			}
 		}
 		
 		catch(Exception e) {
-			logWriter("FAIL : Adding First Name " + e.getMessage());
+			Reporter.log("FAIL : Adding First Name " + e.getMessage());
 			
 		}
 	}
@@ -269,12 +270,12 @@ public class GroupDetailPageObjects extends BaseUtils {
 						w.sendKeys("abcd");
 					}
 					i++;
-					logWriter("PASS : Adding Last Name " );
+					Reporter.log("PASS : Adding Last Name " );
 				}
 			}
 			
 			catch(Exception e) {
-				logWriter("FAIL : " + e.getMessage());
+				Reporter.log("FAIL : " + e.getMessage());
 				
 			}
 		}
@@ -284,13 +285,13 @@ public class GroupDetailPageObjects extends BaseUtils {
 		try {
 			for(WebElement w: EmailList) {
 				w.sendKeys(EmailId);
-				logWriter("PASS : Adding EmailId ");
+				Reporter.log("PASS : Adding EmailId ");
 			}
 			
 		 }
 		
 		catch(Exception e) {
-			logWriter("FAIL : Adding EmailId" + e.getMessage());
+			Reporter.log("FAIL : Adding EmailId" + e.getMessage());
 			
 		}
 	}
@@ -299,11 +300,11 @@ public class GroupDetailPageObjects extends BaseUtils {
 		
 		try {
 				ConEmailList.sendKeys(EmailId);
-				logWriter("PASS : Adding Confirm EmailId ");
+				Reporter.log("PASS : Adding Confirm EmailId ");
 			 }
 		
 		catch(Exception e) {
-			logWriter("FAIL : Adding Confirm EmailId" + e.getMessage());
+			Reporter.log("FAIL : Adding Confirm EmailId" + e.getMessage());
 			
 		}
 	}
@@ -319,12 +320,12 @@ public class GroupDetailPageObjects extends BaseUtils {
 				int Count=AgeGroupList.size();
 				int index=RandomGenerator(Count-1);
 				selAgeGroup.selectByIndex(index);
-				logWriter("PASS : Adding Age" );
+				Reporter.log("PASS : Adding Age" );
 			}
 		}
 		catch(Exception e) {
 			
-			logWriter("FAIL : " + e.getMessage());
+			Reporter.log("FAIL : " + e.getMessage());
 		}
 		
 	}
@@ -339,12 +340,12 @@ public class GroupDetailPageObjects extends BaseUtils {
 				int Count=NationalityList.size();
 				int index=RandomGenerator(Count-1);
 				selNationality.selectByIndex(index);
-				logWriter("PASS: ");
+				Reporter.log("PASS: ");
 			}
 		}
 		
 		catch(Exception e) {
-			logWriter("FAIL : " + e.getMessage());
+			Reporter.log("FAIL : " + e.getMessage());
 			
 		}
 	}
@@ -356,7 +357,7 @@ public class GroupDetailPageObjects extends BaseUtils {
 		}
 		
 		catch(Exception e) {
-			logWriter("FAIL : " + e.getMessage());
+			Reporter.log("FAIL : " + e.getMessage());
 		}
 	}
 	public void SelectAboutUsDropdown() {
@@ -372,7 +373,7 @@ public class GroupDetailPageObjects extends BaseUtils {
 		}
 		}
 		catch(Exception e) {
-			logWriter("FAIL : "+ e.getMessage());
+			Reporter.log("FAIL : "+ e.getMessage());
 			System.out.println(e.getMessage());
 		}
 	}
@@ -382,11 +383,11 @@ public class GroupDetailPageObjects extends BaseUtils {
 		try {
 			
 			DayPhoneNoCode.sendKeys(Code);
-			logWriter("PASS : Adding a Day Phone no Code " );
+			Reporter.log("PASS : Adding a Day Phone no Code " );
 		}	
 		
 		catch(Exception e) {
-			logWriter("FAIL :" + e.getMessage());
+			Reporter.log("FAIL :" + e.getMessage());
 		}		
 	}
 	
@@ -445,17 +446,17 @@ public class GroupDetailPageObjects extends BaseUtils {
 			
 			if(ExpTitle == ActTitle) {
 				
-				logWriter("PASS : \"Group Detail\" page Title is "+ ActTitle);
+				Reporter.log("PASS : \"Group Detail\" page Title is "+ ActTitle);
 			}
 			
 			else {
 				
-				logWriter("FAIL : \"Group Detail\" Page Title is " + ActTitle);
+				Reporter.log("FAIL : \"Group Detail\" Page Title is " + ActTitle);
 				
 			}
 		}
 		catch(Exception e) {
-			logWriter("FAIL : " + e.getMessage());
+			Reporter.log("FAIL : " + e.getMessage());
 		}
 	}
 	
@@ -470,16 +471,16 @@ public class GroupDetailPageObjects extends BaseUtils {
 			
 			if(ExpURL == ActURL) {
 				
-				logWriter("PASS : \"Group Detail\" Page URL .");
+				Reporter.log("PASS : \"Group Detail\" Page URL .");
 			}
 			
 			else {
 				
-				logWriter("FAIL : \"Group Detail\" Page URL.");
+				Reporter.log("FAIL : \"Group Detail\" Page URL.");
 			  }
 		   }
 	     catch(Exception e) {
-	    	 logWriter("FAIL : \"Group Detail\" Page URL." + e.getMessage());
+	    	 Reporter.log("FAIL : \"Group Detail\" Page URL." + e.getMessage());
 	     }
     
      }
@@ -495,7 +496,7 @@ public class GroupDetailPageObjects extends BaseUtils {
 		 
 		 catch(Exception e) {
 			 System.out.println(e.getMessage());
-			 logWriter("FAIL : \"Group Detail\" Page URL." + e.getMessage());
+			 Reporter.log("FAIL : \"Group Detail\" Page URL." + e.getMessage());
 		 }	 
 	 }
 	 
@@ -513,7 +514,7 @@ public class GroupDetailPageObjects extends BaseUtils {
 			 
 		 }
 		 catch(Exception e) {
-			 logWriter("FAIL :" +e.getMessage());
+			 Reporter.log("FAIL :" +e.getMessage());
 			 
 		 }
 	 }
@@ -524,13 +525,13 @@ public class GroupDetailPageObjects extends BaseUtils {
 			 for(WebElement w:ChkBoxList) {
 				 if(w.isSelected()) {
 				   w.click();
-				   logWriter("PASS : Succesfully Deselecting the News Letter checkbox");
+				   Reporter.log("PASS : Succesfully Deselecting the News Letter checkbox");
 			    }
 		    }
 		 }
 		 catch(Exception e){
 			 System.out.println(e.getMessage());
-			 logWriter("FAIL :"+e.getMessage());
+			 Reporter.log("FAIL :"+e.getMessage());
 		 }
 		 
 	 }

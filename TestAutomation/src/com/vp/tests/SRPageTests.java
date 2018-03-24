@@ -5,6 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.vp.utils.BaseUtils;
@@ -17,21 +18,23 @@ public class SRPageTests extends BaseUtils{
     ResultSet rs = null;
     GetFromDB getfromdb;
 
-	@Test(priority=2,groups= {"PKBooking","VOBooking"})
-	public void verifySearchResultspage() throws IOException, ClassNotFoundException, SQLException
+	@Test(priority=2)
+	@Parameters({"BookingType"})
+	public void verifySearchResultspage(String BookingType) throws IOException, ClassNotFoundException, SQLException
 	{
 		SRPage = PageFactory.initElements(driver, SRPageObjects.class);
-	}
-	@Test(priority=3,groups= {"PKBooking"})
-	public void openPKSummaryPage()
-	{
-		SRPage.clickBookVillaAndFlights();
-	}
-	@Test(priority=3,groups= {"VOBooking"})
-	public void openVOSummaryPage()
-	{
-		SRPage.clickBookVillaOnly();
+		if(BookingType == "PK")
+		{
+			SRPage.clickBookVillaAndFlights();
+		}
+		else if(BookingType == "VO")
+		{
+			SRPage.clickBookVillaOnly();
+		}
+		else if(BookingType == "Conv")
+		{
+			SRPage.clickBookVillaOnly();
+		}
 	}
 	
-
 }

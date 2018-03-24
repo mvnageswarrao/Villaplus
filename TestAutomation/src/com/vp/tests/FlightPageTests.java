@@ -15,7 +15,7 @@ public class FlightPageTests extends BaseUtils{
 	SRPageObjects SRPage;
 	FlightsPageObjects FlightsPage;
 	
-	@Test(priority=4,groups= {"VOBooking","PKBooking"})
+	@Test(priority=4)
 	public void VerifyFlightspage() throws IOException, InterruptedException
 	{
 		FlightsPage = PageFactory.initElements(driver, FlightsPageObjects.class);

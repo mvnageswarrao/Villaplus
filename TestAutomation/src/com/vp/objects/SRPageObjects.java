@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
+
 import com.vp.utils.BaseUtils;
 
 public class SRPageObjects extends BaseUtils{
@@ -42,12 +44,12 @@ public class SRPageObjects extends BaseUtils{
 		{
 			if(ActTitle.contains(ExpTitle))
 			{
-				logWriter("PASS : \"Search Results\" Page Opened.");
+				Reporter.log("PASS : \"Search Results\" Page Opened.");
 			}
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not Open \"Search Results\" Page."+e.getMessage());
+			Reporter.log("FAIL : Could Not Open \"Search Results\" Page."+e.getMessage());
 
 		}		
 		
@@ -61,11 +63,11 @@ public class SRPageObjects extends BaseUtils{
 		try
 		{
 			NumofVillas = Integer.parseInt(ArrTitle[3]);
-			logWriter("PASS : "+NumofVillas+" Villas found in Search Results page.");
+			Reporter.log("PASS : "+NumofVillas+" Villas found in Search Results page.");
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could not fetch Num of Villas from Search Results page."+e.getMessage());	
+			Reporter.log("FAIL : Could not fetch Num of Villas from Search Results page."+e.getMessage());	
 		}
 		return NumofVillas;
 
@@ -83,7 +85,7 @@ public class SRPageObjects extends BaseUtils{
 				if(PKBtn.getAttribute("value").contains("Book villa & flights"))
 				{
 					PKBtn.click();
-					logWriter("PASS : Clicked \"Book Villa & Flights\" Button.");
+					Reporter.log("PASS : Clicked \"Book Villa & Flights\" Button.");
 					break;
 				}
 			}
@@ -91,7 +93,7 @@ public class SRPageObjects extends BaseUtils{
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not click \"Book Villa & Flights\" Button."+e.getMessage());
+			Reporter.log("FAIL : Could Not click \"Book Villa & Flights\" Button."+e.getMessage());
 		}		
 	}
 	public void clickBookVillaOnly()
@@ -106,14 +108,14 @@ public class SRPageObjects extends BaseUtils{
 				if(VOBtn.getAttribute("value").contains("Book villa only"))
 				{
 					VOBtn.click();
-					logWriter("PASS : Clicked \"Book Villa Only\" Button.");
+					Reporter.log("PASS : Clicked \"Book Villa Only\" Button.");
 					break;
 				}
 			}
 		}
 		catch(Exception e)
 		{
-			logWriter("FAIL : Could Not click \"Book Villa Only\" Button."+e.getMessage());
+			Reporter.log("FAIL : Could Not click \"Book Villa Only\" Button."+e.getMessage());
 		}
 	}
 
