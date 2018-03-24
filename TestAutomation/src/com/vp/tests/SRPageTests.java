@@ -33,6 +33,7 @@ public class SRPageTests extends BaseUtils{
 		}
 		else if(BookingType == "Conv")
 		{
+//			SRPage.bookType=true;
 			SRPage.clickBookVillaOnly();
 		}
 	}

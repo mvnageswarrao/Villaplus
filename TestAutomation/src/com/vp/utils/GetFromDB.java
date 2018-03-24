@@ -102,7 +102,32 @@ public class GetFromDB
 		return DatetoSelect;
 		
 	}
-	
+	public ArrayList<String> getVOPrices(String VillaName, String DepDate, String NumofNights) throws ClassNotFoundException, SQLException
+	{
+		
+		ArrayList<String> VOPriceValuesLst = new ArrayList<String>();
+ 
+		
+		SQLquery  = "EXEC dbo.QAsp_CalculateVillaPrice @villaName = '"+VillaName+"', @departureDate = '"+ DepDate+ "', @weeks = '" +NumofNights+ "'";
+		System.out.println(SQLquery);
+		rs = getdata(SQLquery);
+		rs.relative(2);
+		while (rs.next())
+		{		
+				rs.getInt("VillaId");
+
+			//VOPriceValuesLst.add(rs.getString("WeekStart"));
+		}
+		while (rs.next())
+		{		rs.getInt("VillaId");
+				rs.getString(1);		
+				rs.getString(2);		
+				rs.getString(3);
+			//VOPriceValuesLst.add(rs.getString("WeekStart"));
+		}
+		closeDBConn();
+		return VOPriceValuesLst;
+	}
 }
 
 

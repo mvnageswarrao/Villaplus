@@ -21,13 +21,6 @@
           <include name="CloseBrowser"/>
         </methods>
       </class> <!-- com.vp.tests.PackageBooking -->
-      <class name="com.vp.tests.VillaOnlyBooking">
-        <methods>
-          <include name="initBrowser"/>
-          <include name="VillaOnlyBookingVerification" invocation-numbers="0"/>
-          <include name="CloseBrowser"/>
-        </methods>
-      </class> <!-- com.vp.tests.VillaOnlyBooking -->
       <class name="com.vp.tests.ConvertedBooking">
         <methods>
           <include name="initBrowser"/>

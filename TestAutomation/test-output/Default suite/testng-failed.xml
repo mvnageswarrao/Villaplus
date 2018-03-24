@@ -6,9 +6,24 @@
       <class name="com.vp.tests.HomePageTests">
         <methods>
           <include name="verifySearchBtnFunctionality"/>
-          <include name="TeardownBrowser"/>
+          <include name="initBrowser"/>
+          <include name="CloseBrowser"/>
         </methods>
       </class> <!-- com.vp.tests.HomePageTests -->
+      <class name="com.vp.tests.PackageBooking">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="PackageBookingVerification"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.vp.tests.PackageBooking -->
+      <class name="com.vp.tests.VillaOnlyBooking">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="VillaOnlyBookingVerification"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.vp.tests.VillaOnlyBooking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

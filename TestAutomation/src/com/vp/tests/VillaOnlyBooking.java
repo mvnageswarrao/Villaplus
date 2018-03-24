@@ -8,7 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.mongodb.diagnostics.logging.Logger;
 import com.vp.objects.ExtrasPageObjects;
 import com.vp.objects.FlightsPageObjects;
 import com.vp.objects.GroupDetailPageObjects;
@@ -36,24 +35,22 @@ public class VillaOnlyBooking extends BaseUtils
 	GroupDetailsPageTests GD = new GroupDetailsPageTests();
 	ExtrasPageTests Ex = new ExtrasPageTests();
 	  
-	@Parameters({ "browserType", "appURL", "AdultsToSelect","ChildToSelect", "InfantsToSelect","SeasonEndDate"})	
-	@Test(priority = 2)
-	public void VillaOnlyBookingVerification(String browserType, String appURL, String AdultsToSelect, String ChildToSelect, String InfantsToSelect, String EndDate) throws ClassNotFoundException, IOException, SQLException, ParseException, InterruptedException
+	@Parameters({ "browserType", "appURL", "AdultsToSelect","ChildToSelect", "InfantsToSelect","SeasonEndDate","EmailID","PostCode"})	
+	@Test(priority = 1)
+	public void VillaOnlyBookingVerification(String browserType, String appURL, String AdultsToSelect, String ChildToSelect, String InfantsToSelect, String EndDate,String EmailID, String PostCode) throws ClassNotFoundException, IOException, SQLException, ParseException, InterruptedException
 	{
 		String BookingType = "VO";
 		//driver = BaseUtils.initBrowser(browserType,appURL);
 		homepage = PageFactory.initElements(driver, HomePageObjects.class);
-		
 		SRPage = PageFactory.initElements(driver, SRPageObjects.class);
 		FlightsPage = PageFactory.initElements(driver, FlightsPageObjects.class);
 		ExtrasPage = PageFactory.initElements(driver, ExtrasPageObjects.class);
 		
 		HM.verifySearchBtnFunctionality(browserType, appURL, AdultsToSelect, ChildToSelect, InfantsToSelect, EndDate);
 		SR.verifySearchResultspage(BookingType);
-		FT.VerifyFlightspage();
-		GD.verifyContinuebtnFunctionality();
-		Ex.VerifyExtrasPage(BookingType);	
-		
+		FT.VerifyFlightspage(BookingType);
+		GD.verifyContinuebtnFunctionality(EmailID,PostCode);
+		Ex.VerifyExtrasPage(BookingType);		
 		
 		
 	}

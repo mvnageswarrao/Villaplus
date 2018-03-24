@@ -6,6 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
@@ -321,6 +322,13 @@ public class BaseUtils {
 		WebDriverWait wait = new WebDriverWait(driver, timeout);
 
 		wait.until(ExpectedConditions.elementToBeClickable(ele));
+	}
+	
+	public void waitForEle(List<WebElement> ele, int timeout) 
+	{
+		WebDriverWait wait = new WebDriverWait(driver, timeout);
+
+		wait.until(ExpectedConditions.visibilityOfAllElements(ele));
 	}
 
 }

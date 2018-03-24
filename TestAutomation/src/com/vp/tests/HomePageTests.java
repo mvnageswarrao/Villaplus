@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.ParseException;
+import java.util.ArrayList;
+
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -33,11 +35,20 @@ public class HomePageTests extends BaseUtils{
 		//driver = BaseUtils.initBrowser(browserType,appURL);
 		homepage = PageFactory.initElements(driver, HomePageObjects.class);
 		SRPage = PageFactory.initElements(driver, SRPageObjects.class);
+		
+		String VillaName = "Fatima";
+		String DepDate = "03/31/2019";
+		String Weeks = "1";
 		do
 		{
+//			ArrayList<String> pricevalues = getfromdb.getVOPrices(VillaName,DepDate,Weeks);
+//			
+//			System.out.println(pricevalues);
+
 			logWriter("########## START ########## Booking : on " + appURL + " " + java.time.LocalDate.now().toString() + "##########");
 			homepage.verifyHomePageOpened();
 			DesttoSelect = getfromdb.getSelectableDest();
+						
 			homepage.openDestDropDown();
 			homepage.selectDest(DesttoSelect);
 			centerCode = getfromdb.getCenterCode(DesttoSelect);

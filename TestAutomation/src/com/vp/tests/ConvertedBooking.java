@@ -35,9 +35,9 @@ public class ConvertedBooking extends BaseUtils
 	GroupDetailsPageTests GD = new GroupDetailsPageTests();
 	ExtrasPageTests Ex = new ExtrasPageTests();
 	  
-	@Parameters({ "browserType", "appURL", "AdultsToSelect","ChildToSelect", "InfantsToSelect","SeasonEndDate"})	
+	@Parameters({ "browserType", "appURL", "AdultsToSelect","ChildToSelect", "InfantsToSelect","SeasonEndDate","EmailID","PostCode"})	
 	@Test(priority = 3)
-	public void ConvertedBookingVerification(String browserType, String appURL, String AdultsToSelect, String ChildToSelect, String InfantsToSelect, String EndDate) throws ClassNotFoundException, IOException, SQLException, ParseException, InterruptedException
+	public void ConvertedBookingVerification(String browserType, String appURL, String AdultsToSelect, String ChildToSelect, String InfantsToSelect, String EndDate,String EmailID, String PostCode) throws ClassNotFoundException, IOException, SQLException, ParseException, InterruptedException
 	{
 		String BookingType = "Conv";
 		//driver = BaseUtils.initBrowser(browserType,appURL);
@@ -48,8 +48,8 @@ public class ConvertedBooking extends BaseUtils
 		
 		HM.verifySearchBtnFunctionality(browserType, appURL, AdultsToSelect, ChildToSelect, InfantsToSelect, EndDate);
 		SR.verifySearchResultspage(BookingType);
-		FT.VerifyFlightspage();
-		GD.verifyContinuebtnFunctionality();
+		FT.VerifyFlightspage(BookingType);
+		GD.verifyContinuebtnFunctionality(EmailID,PostCode);
 		Ex.VerifyExtrasPage(BookingType);		
 		
 		
